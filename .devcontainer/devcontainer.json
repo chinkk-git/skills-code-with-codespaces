@@ -13,6 +13,8 @@
          "extensions": [
              "GitHub.copilot"
          ]
+        ,
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
      },
      "codespaces": {
          "openFiles": [
